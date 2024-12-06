@@ -1,0 +1,58 @@
+.home-page-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.events-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.event-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.event-card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.event-card p {
+    color: #777;
+}
+
+.register-btn,
+.view-registrations-btn {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.register-btn:hover,
+.view-registrations-btn:hover {
+    background-color: #45a049;
+}
